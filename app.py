@@ -129,22 +129,23 @@ with stylable_container(
         st.title("Deb Sundar Khan")
         st.markdown("#### Data Analytics Professional | MBA in Business Analytics & Data Science")
         st.markdown(
-            "Transforming complex data into actionable business insights through advanced analytics and visualization")
+            "An hardworking individual with a passion for Data Analytics, committed to making an impact as a strategic Data Analyst")
     with col2:
-        # Download resume button
+        # Keep your image as is
         st.image("Deb Sundar Khan Pic.jpg")
+
 # Sidebar with Contact Info
 with st.sidebar:
     colored_header(
         label="About me",
-        description="I am an MBA student specializing in Business Analytics and Data Science, passionate about turning data into actionable insights. With strong skills in Python, SQL, and analytical thinking, I thrive in dynamic environments. I’m also an active member of my college’s fitness club, balancing academics with a commitment to health and teamwork.",
+        description="I am an MBA student specializing in Business Analytics and Data Science at Bengal Institute of Business Studies, passionate about turning data into actionable insights. With strong technical skills in Python, SQL, and Machine Learning, I combine analytical thinking with business acumen to solve complex problems. My internship at Prodigy InfoTech honed my ability to derive meaningful insights from data.",
         color_name="blue-70"
     )
 
     st.markdown("📧 **Email:**  \ndevkhadhn@gmail.com")
     st.markdown("📱 **Phone:**  \n+91 7645012176")
-    st.markdown("🔗 **LinkedIn:**  \nwww.linkedin.com/in/deb-sundar-khan-0470782a1")
-    st.markdown("💻 **GitHub:**  \ngithub.com/Debsundarkhan")
+    st.markdown("🔗 **LinkedIn:**  \n[linkedin.com/in/deb-sundar-khan-0470782a1](https://www.linkedin.com/in/deb-sundar-khan-0470782a1)")
+    st.markdown("💻 **GitHub:**  \n[github.com/Debsundarkhan](https://github.com/Debsundarkhan)")
 
     colored_header(
         label="Technical Skills",
@@ -177,15 +178,15 @@ with tab1:
         """
     ):
         st.markdown("""
-        Results-driven **Data Analytics Professional** with expertise in transforming complex datasets into actionable business insights. 
-        Currently pursuing **MBA in Business Analytics and Data Science** with hands-on experience in:
+        Results-driven **Data Analytics Professional** currently pursuing MBA in Business Analytics and Data Science at Bengal Institute of Business Studies. Key strengths include:
 
-        - Advanced data analysis and visualization
-        - Predictive modeling and machine learning
-        - Business intelligence and strategy development
-        - SQL database management and optimization
+        - Expertise in Python data analysis (Pandas, NumPy, Matplotlib)
+        - Strong foundation in SQL and relational databases
+        - Machine Learning model development and optimization
+        - Business intelligence and data visualization with Power BI
+        - Strategic analysis of consumer behavior and market trends
 
-        Passionate about leveraging data-driven approaches to solve business challenges and drive strategic decision-making.
+        Passionate about leveraging data to drive business decisions and create impactful solutions.
         """)
 
     st.markdown('<div class="section-title">Education</div>', unsafe_allow_html=True)
@@ -204,13 +205,18 @@ with tab1:
             """
         ):
             st.markdown('<div class="timeline-item">', unsafe_allow_html=True)
-            st.markdown("**PGPBA&DS + MBA**  \n*Bengal Institute of Business Studies*")
+            st.markdown("**PGPBA&DS + MBA**  \n*Bengal Institute of Business Studies*  \nSpecialization in Business Analytics and Data Science")
             st.markdown('<span style="color: #7f8c8d;">2024 - Present</span>', unsafe_allow_html=True)
             st.markdown('</div>', unsafe_allow_html=True)
 
             st.markdown('<div class="timeline-item">', unsafe_allow_html=True)
             st.markdown("**B.Sc. Mathematics**  \n*P.K.ROY Memorial College, Dhanbad*")
-            st.markdown('<span style="color: #7f8c8d;">2024</span>', unsafe_allow_html=True)
+            st.markdown('<span style="color: #7f8c8d;">Graduated 2024</span>', unsafe_allow_html=True)
+            st.markdown('</div>', unsafe_allow_html=True)
+
+            st.markdown('<div class="timeline-item">', unsafe_allow_html=True)
+            st.markdown("**XII - C.B.S.E**  \n*D.A.V. Model School, C.F.R.I., Dhanbad*")
+            st.markdown('<span style="color: #7f8c8d;">2021</span>', unsafe_allow_html=True)
             st.markdown('</div>', unsafe_allow_html=True)
 
 with tab2:
@@ -228,13 +234,13 @@ with tab2:
         """
     ):
         st.markdown('<div class="timeline-item">', unsafe_allow_html=True)
-        st.markdown("**Data Science Intern**  \n*Prodigy InfoTech (Remote)*")
+        st.markdown("**Data Science Intern (Remote)**  \n*Prodigy InfoTech*")
         st.markdown('<span style="color: #7f8c8d;">January 2025 - February 2025</span>', unsafe_allow_html=True)
         st.markdown("""
-        - Analyzed customer behavior patterns using Python (Pandas, NumPy) to identify purchasing trends
-        - Evaluated store trial performance metrics, delivering strategic recommendations that improved layout efficiency by 18%
-        - Developed interactive dashboards to visualize key performance indicators for executive review
-        - Automated weekly reporting processes, reducing manual work by 12 hours per week
+        - Analyzed customer behavior and evaluated store trial performance using Python
+        - Delivered data-driven insights and strategic recommendations for the chips category
+        - Developed store layout optimization suggestions based on customer flow analysis
+        - Created visualizations to communicate findings to stakeholders
         """)
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -256,7 +262,8 @@ with tab2:
         ):
             st.markdown("**Machine Learning with Python**  \n*IIT Kanpur*")
             st.markdown('<span style="color: #7f8c8d;">2024</span>', unsafe_allow_html=True)
-            st.markdown("Built and optimized ML models using Python")
+            st.markdown("- Built and optimized ML models using Python")
+            st.markdown("- Covered supervised and unsupervised learning techniques")
 
     with cert_cols[1]:
         with stylable_container(
@@ -273,7 +280,45 @@ with tab2:
         ):
             st.markdown("**SQL and Relational Database**  \n*IBM*")
             st.markdown('<span style="color: #7f8c8d;">2024</span>', unsafe_allow_html=True)
-            st.markdown("Mastered SQL queries, database design, and data management")
+            st.markdown("- Mastered SQL queries and database design")
+            st.markdown("- Gained expertise in data management and optimization")
+
+    cert_cols = st.columns(2)
+    with cert_cols[0]:
+        with stylable_container(
+                key="cert_card3",
+                css_styles="""
+            {
+                background: white;
+                border-radius: 12px;
+                padding: 20px;
+                box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+                height: 100%;
+            }
+            """
+        ):
+            st.markdown("**Accenture Nordics Consultant Simulation**  \n*Forage*")
+            st.markdown('<span style="color: #7f8c8d;">2024</span>', unsafe_allow_html=True)
+            st.markdown("- Analyzed data to recommend UX improvements")
+            st.markdown("- Managed project priorities for healthcare client")
+
+    with cert_cols[1]:
+        with stylable_container(
+                key="cert_card4",
+                css_styles="""
+            {
+                background: white;
+                border-radius: 12px;
+                padding: 20px;
+                box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+                height: 100%;
+            }
+            """
+        ):
+            st.markdown("**Tata Data Visualization Simulation**  \n*Forage*")
+            st.markdown('<span style="color: #7f8c8d;">2024</span>', unsafe_allow_html=True)
+            st.markdown("- Created Power BI dashboards for retail client")
+            st.markdown("- Supported executive decision-making")
 
 with tab3:
     st.markdown('<div class="section-title">Featured Projects</div>', unsafe_allow_html=True)
@@ -294,10 +339,10 @@ with tab3:
         ):
             st.markdown("**Consumer Trend Analysis**  \n*Tata Consumer Products*")
             st.markdown("""
-            - Analyzed 12 months of sales data to identify purchasing patterns
-            - Developed Python scripts to automate data cleaning and visualization
-            - Created interactive dashboards highlighting key customer segments
-            - Presented findings to stakeholders with actionable recommendations
+            - Conducted data analysis on Tata Consumer Products trends
+            - Used Python (Pandas/Matplotlib) to analyze sales patterns
+            - Derived insights on customer preferences
+            - Created visualizations of key findings
             """)
             st.markdown('<div class="skill-badge">Python</div>', unsafe_allow_html=True)
             st.markdown('<div class="skill-badge">Pandas</div>', unsafe_allow_html=True)
@@ -318,14 +363,62 @@ with tab3:
         ):
             st.markdown("**Social Media Sentiment Analysis**  \n*Python Project*")
             st.markdown("""
-            - Collected and analyzed 10,000+ social media posts
-            - Implemented NLTK and TextBlob for sentiment classification
-            - Visualized emotional trends over time
-            - Achieved 85% accuracy in sentiment prediction
+            - Analyzed and visualized sentiment patterns from social media
+            - Used Python (NLTK/TextBlob) to classify emotions
+            - Identified key trends in user sentiment
+            - Created interactive visualizations
             """)
             st.markdown('<div class="skill-badge">Python</div>', unsafe_allow_html=True)
             st.markdown('<div class="skill-badge">NLTK</div>', unsafe_allow_html=True)
             st.markdown('<div class="skill-badge">TextBlob</div>', unsafe_allow_html=True)
+
+    proj_cols = st.columns(2)
+    with proj_cols[0]:
+        with stylable_container(
+                key="proj_card3",
+                css_styles="""
+            {
+                background: white;
+                border-radius: 12px;
+                padding: 20px;
+                box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+                height: 100%;
+            }
+            """
+        ):
+            st.markdown("**Retail Analytics for Customer Segmentation**")
+            st.markdown("""
+            - Analyzed customer segments and purchasing behavior
+            - Developed clustering models for segmentation
+            - Provided data-driven marketing recommendations
+            - Created customer persona visualizations
+            """)
+            st.markdown('<div class="skill-badge">Python</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skill-badge">Machine Learning</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skill-badge">Segmentation</div>', unsafe_allow_html=True)
+
+    with proj_cols[1]:
+        with stylable_container(
+                key="proj_card4",
+                css_styles="""
+            {
+                background: white;
+                border-radius: 12px;
+                padding: 20px;
+                box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+                height: 100%;
+            }
+            """
+        ):
+            st.markdown("**Rock Paper Scissors Game**  \n*Python Project*")
+            st.markdown("""
+            - Developed interactive game against computer
+            - Implemented user input validation
+            - Designed random choice logic
+            - Created score tracking system
+            """)
+            st.markdown('<div class="skill-badge">Python</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skill-badge">Game Development</div>', unsafe_allow_html=True)
 
 with tab4:
     st.markdown('<div class="section-title">Get In Touch</div>', unsafe_allow_html=True)
@@ -342,7 +435,7 @@ with tab4:
         """
     ):
         contact_form = """
-        <form action="https://formsubmit.co/your.email@example.com" method="POST">
+        <form action="https://formsubmit.co/devkhadhn@gmail.com" method="POST">
             <input type="hidden" name="_captcha" value="false">
             <input class="contact-input" type="text" name="name" placeholder="Your Name" required>
             <input class="contact-input" type="email" name="email" placeholder="Your Email" required>
